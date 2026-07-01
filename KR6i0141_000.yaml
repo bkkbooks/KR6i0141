@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0141/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說蓱沙王五願經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0511.xml
+    old_id: T14n0511
+hash: sha256:83c1b32ba4d62bef9966bace3c51ebda74c86c53c3afda96787a469ada06cb0f

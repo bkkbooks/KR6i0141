@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR6i0141/v1
+canonical_location: https://kanripo.org/bkk/KR6i0141/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說蓱沙王五願經
+  identifiers:
+    alt_id:
+    - T14n0511
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0511.xml
+    old_id: T14n0511
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0141_000.yaml, hash: 'sha256:83c1b32ba4d62bef9966bace3c51ebda74c86c53c3afda96787a469ada06cb0f'}
+  - {seq: 1, filename: KR6i0141_001.yaml, hash: 'sha256:491c06562e54c4201a0d171859657cff81b4caffb5cf39487d5f074eac5ce93c'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0141_001.markers.yaml, hash: 'sha256:8bb23ed942357fe31ec6a5e008d017a0abea4f5bc1eb346ac6def877a00fb81f'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0141_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 2849
+  label: 佛說蓱沙王五願經
+  type: juan
+  level: 1
+hash: sha256:4f4510ed7f0cc253b82251efa6d198f3f2c36182ef7dda421ab21a64181b432e
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
